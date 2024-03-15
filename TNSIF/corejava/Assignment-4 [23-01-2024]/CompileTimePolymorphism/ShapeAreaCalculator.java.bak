@@ -1,0 +1,17 @@
+class ShapeAreaCalculator
+{
+	public class CalculatorArea(int sideLength)
+	{
+		System.out.println("Area of the Square:" + sideLength*sideLength);
+	}
+
+	public class CalculatorArea(int length, int width)
+	{
+		System.out.println("Area of the Rectangle:" + length*width);
+	}
+
+	public class CalculatorArea(double radius)
+	{
+		System.out.println("Area of the Circle:" + 3.14*radius*radius);
+	}
+}
